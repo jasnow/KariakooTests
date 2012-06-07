@@ -7,7 +7,7 @@ Application code is here: /http://www.2seedmis.freevar.com
 How to see the tests:
 ====================
 
- 1. Bring up in browser: https://www.relishapp.com/jasnow/KariakooTests/TBD
+ 1. Bring up in browser: https://www.relishapp.com/jasnow/KariakooTests/docs/
 
 How to run the tests:
 ====================
