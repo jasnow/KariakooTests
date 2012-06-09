@@ -1,5 +1,14 @@
 Feature: Volume Information
 
+  * Overview of Data Input Process (5/27/2012 Email)
+  * Volume
+    * Market employees collect volume data on every crop that 
+        enters the market as it enters
+    * Volume form will be used to enter data for each occurrence 
+        (possibly multiple times for each crop each day)
+    * For now, we will assume that everything is measured in kilos
+        but will adjust later as needed
+
   As a market clerk
   I want to enter volume summeries for the day by crop and quality
 

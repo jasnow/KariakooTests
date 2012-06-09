@@ -1,5 +1,12 @@
 Feature: Price Information
 
+  * Overview of Data Input Process (5/27/2012 Email)
+  * Price
+    * Market employees collect price data as a range once per day.
+    * Price form will be used to enter data for each crop once per day.
+    * For now, we will assume that everything is measured in kilos
+        but will adjust later as needed.
+
   As a market clerk
   I want to enter pricing summaries for the day by crop and quality
 
