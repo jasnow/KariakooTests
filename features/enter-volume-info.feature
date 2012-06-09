@@ -28,6 +28,5 @@ Feature: Volume Information
     Then the response should succesfully
 
   Examples:
-    | commodity       | dateValue  | quality | region | district | ward   | amount |
-    | Potatoes(Viazi) | 02/02/2012 | Grade 1 | Mbeya  | Nzega    | Kongwa | 10     |
-
+    | commodity | dateValue  | quality | region | district | ward   | amount |
+    | Potatoes(Viazi) | 02/02/2012 | Grade 1 | Mbeya  | Nzega    | Kongwa | 10 |

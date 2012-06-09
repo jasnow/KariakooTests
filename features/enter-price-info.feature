@@ -31,3 +31,4 @@ Feature: Price Information
   Examples:
     | commodity       | dateValue  | quality | flPrice | fhPrice | dlPrice | dhPrice | wlPrice | whPrice | rlPrice | rhPrice |
     | Potatoes(Viazi) | 02/02/2012 | Grade 1 | 1       | 2       |  3      | 4       | 5       | 6       | 7       | 8       |
+
