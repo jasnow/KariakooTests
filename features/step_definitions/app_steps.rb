@@ -10,43 +10,43 @@ end
 
 ## WHEN ##################################################
 
-When /^I enter the date (\d+)\/(\d+)\/(\d+)$/ do |month, day, year|
-  fill_in "date", :with => "#{month}/#{day}/#{year}"
+When /^I enter the date (.*)$/ do |date|
+  fill_in "date", :with => "#{date}"
 end
 
 When /^I enter the date "([^"]*\])"$/ do |date|
   fill_in "date", :with => date
 end
 
-When /^I enter the lowest farm gate quoted price as (\d+)$/ do |price|
+When /^I enter the lowest farm gate quoted price as (.*)$/ do |price|
   fill_in "flprice", :with => price
 end
 
-When /^I enter the highest farm gate quoted price as (\d+)$/ do |price|
+When /^I enter the highest farm gate quoted price as (.*)$/ do |price|
   fill_in "fhprice", :with => price
 end
 
-When /^I enter the lowest delivered quoted price as (\d+)$/ do |price|
+When /^I enter the lowest delivered quoted price as (.*)$/ do |price|
   fill_in "dlprice", :with => price
 end
 
-When /^I enter the highest delivered quoted price as (\d+)$/ do |price|
+When /^I enter the highest delivered quoted price as (.*)$/ do |price|
   fill_in "dhprice", :with => price
 end
 
-When /^I enter the lowest wholesale quoted price as (\d+)$/ do |price|
+When /^I enter the lowest wholesale quoted price as (.*)$/ do |price|
   fill_in "wlprice", :with => price
 end
 
-When /^I enter the highest wholesale quoted price as (\d+)$/ do |price|
+When /^I enter the highest wholesale quoted price as (.*)$/ do |price|
   fill_in "whprice", :with => price
 end
 
-When /^I enter the lowest retail quoted price as (\d+)$/ do |price|
+When /^I enter the lowest retail quoted price as (.*)$/ do |price|
   fill_in "rlprice", :with => price
 end
 
-When /^I enter the highest retail quoted price as (\d+)$/ do |price|
+When /^I enter the highest retail quoted price as (.*)$/ do |price|
   fill_in "rhprice", :with => price
 end
 
@@ -62,7 +62,7 @@ When /^I enter the quality "([^"]*)"$/ do |quality|
   page.select quality, :from => "quality"
 end
 
-When /^I enter the amount received (\d+)$/ do |amount|
+When /^I enter the amount received (.*)$/ do |amount|
   fill_in "amount", :with => amount
 end
 
